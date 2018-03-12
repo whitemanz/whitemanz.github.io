@@ -109,23 +109,19 @@ EasyCode - школа IT-специалистов.
 
 **Разметка была перестроена для следующих разделов и секций.**
 
-```html
-- Раздел Header: (min-width: 767px)
-- Секция City: (max-width: 991px, 767px, 479px)
-- Секция About-studio: (max-width: 1199px, 991px, 767px)
-- Секция Let’s Talk: (max-width: 1199pxб 991px)
-- Секция Choose-us: (max-width: 1199px, 991px, 767px)
-- Секция Slider: (max-width: 991px)
-- Секция Portfolio: (max-width: 1199px, 991px, 767px, 479px)
-- Секция Like: (max-width: 479px)
-- Секция Latest News: (max-width: 1199px, 991px, 767px, 479px)
-- Секция News Letter: 	 (min-width: 767px, 479px)
-- Секция Contact: (min-width: 767px, 479px)
-```
+|   @media   |Header| City |About studio|Let’s Talk|Choose us|Slider|Portfolio|Like |Latest News|News Letter|Contact|
+|:----------:|:----:|:----:|:----------:|:--------:|:-------:|:----:|:-------:|:---:|:---------:|:---------:|:-----:|
+|*max-width:*|      |      |            |          |         |      |         |     |           |           |       |
+|   *1199px* |      |      |     `X`    |    `X`   |   `X`   |  `X` |   `X`   |     |    `X`    |           |       |
+|    *991px* |      |  `X` |     `X`    |    `X`   |   `X`   |      |   `X`   |     |    `X`    |           |       |
+|    *767px* |      |  `X` |     `X`    |          |   `X`   |      |   `X`   |     |    `X`    |    `X`    |  `X`  |
+|    *479px* |      |      |            |          |         |      |   `X`   | `X` |    `X`    |    `X`    |  `X`  |
+|*min-width:*|      |      |            |          |         |      |         |     |           |           |       |
+|   *767px*  |  `X` |      |            |          |         |      |         |     |           |           |       |
 
 ***
 ***Проект был протестирован в следующих браузерах:***  Google Chrome, Mozilla Firefox, Microsoft Edge.
 
-`2018г. EasyCode. курс "Front-End разработка."`
+> 2018г. EasyCode. курс "Front-End разработка."
 
 разработчик: Шкурлапов Игорь
